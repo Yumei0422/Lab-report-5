@@ -3,6 +3,7 @@
 I firsted added a line in script.sh to print the file name with echo and then I use the command diff to find how the output of each file is different. 
 
 ![Image](diff.png) 
+
 **For test-file 577**
 
 The first line of output shows that there's a diff in the 1064 line for my txt files and 1062 line for the official implementation which corresponds to test-file 577. I looked at test-file 577 and I think my implementation is correct as the link is not valid. I think the bug is that the official implementation fail to recognize that there's a exclamation mark in front of the first open bracket thus considering it as a link. 
